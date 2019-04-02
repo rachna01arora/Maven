@@ -1,10 +1,12 @@
 package mavenexample;
 
 import org.testng.annotations.Test;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -15,11 +17,16 @@ public class Mavensampletest {
   @Test
   public void openURL(){
   System.setProperty("webdriver.chrome.driver", "D:\\Automation\\chromedriver_win32\\chromedriver.exe");
-	WebDriver driver = new ChromeDriver();
+	 driver = new ChromeDriver();
+	//ChromeOptions options = new ChromeOptions();  
+    //options.addArguments("test-type");
+    //options.addArguments("--disable-extensions");
+    //driver = new ChromeDriver(options);
+   // caps.setCapability("browser_version", "54.0.2840.87");
 	driver.manage().window().maximize();
      
 	  driver.get("http://learn-automation.com/");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.close();
   }
 }
