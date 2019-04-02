@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28977" started-at="2019-02-21T07:19:00Z" finished-at="2019-02-21T07:19:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28977" started-at="2019-02-21T07:19:00Z" finished-at="2019-02-21T07:19:29Z">
+      <class name="mavenexample.Mavensampletest">
+        <test-method status="PASS" signature="openURL()[pri:0, instance:mavenexample.Mavensampletest@4520ebad]" name="openURL" duration-ms="28896" started-at="2019-02-21T07:19:00Z" finished-at="2019-02-21T07:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="close()[pri:0, instance:mavenexample.Mavensampletest@4520ebad]" name="close" is-config="true" duration-ms="1" started-at="2019-02-21T07:19:29Z" finished-at="2019-02-21T07:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- mavenexample.Mavensampletest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
