@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="mavenexample.Mavensampletest"/>
+      <class name="mavenexample.example"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
