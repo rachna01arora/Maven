@@ -23,6 +23,7 @@ public class Mavensampletest {
     //options.addArguments("--disable-extensions");
     //driver = new ChromeDriver(options);
    // caps.setCapability("browser_version", "54.0.2840.87");
+	 //extra
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(20,  TimeUnit.SECONDS);
      
