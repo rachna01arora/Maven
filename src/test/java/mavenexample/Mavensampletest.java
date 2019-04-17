@@ -24,6 +24,7 @@ public class Mavensampletest {
     //driver = new ChromeDriver(options);
    // caps.setCapability("browser_version", "54.0.2840.87");
 	driver.manage().window().maximize();
+	driver.manage().timeouts().implicitlyWait(20,  TimeUnit.SECONDS);
      
 	  driver.get("http://learn-automation.com/");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
