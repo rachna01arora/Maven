@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Tesng">
+=======
+<suite name="Testsuitesname">
+>>>>>>> 5617085d14ba0a5ed85c29a5b43fb368d0d913de
   <test thread-count="5" name="Test">
     <classes>
       <class name="mavenexample.example"/>
