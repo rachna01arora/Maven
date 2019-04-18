@@ -15,7 +15,7 @@
 <version>6.1.1</version>
 </dependency>
 
-<!-- Adding Selenium dependency in this file -->
+<!-- Adding Selenium dependency in this file POM.xml-->
 
 <dependency>
  <groupId>org.seleniumhq.selenium</groupId>
