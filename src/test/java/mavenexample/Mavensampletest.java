@@ -28,7 +28,8 @@ public class Mavensampletest {
 	driver.manage().timeouts().implicitlyWait(20,  TimeUnit.SECONDS);
      
 	  driver.get("http://learn-automation.com/");
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	
+		System.out.println(driver.getTitle());
 		driver.close();
   }
 }
