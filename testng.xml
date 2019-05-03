@@ -12,7 +12,7 @@
 >>>>>>> NODE2
 >>>>>>> 9fe6cd141041cdff4b45c7e865c56580dd643394
     <classes>
-      <class name="mavenexample.example"/>
+      <class name="mavenexample.example11"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
