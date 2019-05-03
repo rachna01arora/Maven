@@ -14,8 +14,7 @@
 <artifactId>testng</artifactId>
 <version>6.1.1</version>
 </dependency>
-
-<!-- Adding Selenium dependency -->
+<!-- Adding Selenium dependency in this file POM.xml and run its-->
 
 <dependency>
  <groupId>org.seleniumhq.selenium</groupId>
